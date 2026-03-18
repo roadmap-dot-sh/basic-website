@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Articles — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Technical articles and blog posts about frontend development, accessibility and best practices." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Your Name" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/articles.html" />
+  </head>
+  <body>
+    <header>
+      <div id="branding">
+        <a href="index.html" aria-label="Homepage"
+          ><strong>Your Name</strong></a
+        >
+      </div>
+
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html" aria-current="page">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <header>
+        <h1>Articles</h1>
+        <p>
+          Short posts, tutorials and notes related to frontend development and
+          best practices.
+        </p>
+      </header>
+
+      <section id="article-list" aria-labelledby="article-list-heading">
+        <h2 id="article-list-heading">Recent Posts</h2>
+
+        <article aria-labelledby="a1-title">
+          <h3 id="a1-title"><a href="#">Building Semantic HTML</a></h3>
+          <p>
+            Summary: How semantic tags improve accessibility and
+            maintainability.
+          </p>
+        </article>
+
+        <article aria-labelledby="a2-title">
+          <h3 id="a2-title"><a href="#">Accessible Forms</a></h3>
+          <p>
+            Summary: Tips for building accessible forms and labeling inputs
+            correctly.
+          </p>
+        </article>
+
+        <article aria-labelledby="a3-title">
+          <h3 id="a3-title"><a href="#">Optimizing Page Performance</a></h3>
+          <p>Summary: Performance strategies for fast-loading pages.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Your Name</p>
+    </footer>
+  </body>
+</html>
